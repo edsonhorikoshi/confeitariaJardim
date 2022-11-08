@@ -9,11 +9,12 @@ body{
     background: #F3E1E1;
     max-width: 2800px;
     width: 100%;
-    margin: 0 auto;
+    margin: 0100px auto;
 }
 
 header{
     display: flex;
+    max-width: 2800px;
     flex-direction: row;
     width: 100%;
     background-color: #CC655E;
@@ -23,6 +24,9 @@ header{
     justify-content: space-between;
     /* flex-wrap: wrap; */
     /* align-content: center; */
+    position: fixed;
+    top: 0;
+    z-index: 10;
 }
 
 header section{
@@ -209,14 +213,25 @@ header li a:hover{
     transition: 0.6s all;
 }
 
-
-main section.carrossel {
+.carrossel {
     background-color: #2B1010;
     width: 800px;
-    align-items: center;
     margin: 10px auto;
     box-shadow: 2px 2px 7px 1px #cc655ec6;
+    height: 400px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 20px;
 }
+
+
+.carousel-inner{
+    height: 400px;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.carrossel 
 
 
 main{
@@ -241,10 +256,24 @@ main{
     flex-wrap: wrap;
     justify-content: center;
     width: 300px;
+    border-radius: 1rem;
+    transition: .6s all;
 }
+
+.maisOpcoes div a:hover{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 310px;
+    border-radius: 1rem;
+    transition: .6s all;
+}
+
 
 .maisOpcoes div a img{
     width: 100%;
+    border-radius: 1rem;
 }
 
 
@@ -275,6 +304,8 @@ footer{
     box-shadow: -2px -3px 7px 1px #cc655ec6;
     justify-content: space-between;
     padding: 0 368px;
+    position: relative;
+    bottom: -100px;
 }
 
 footer div{
