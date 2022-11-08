@@ -46,14 +46,14 @@ header section{
     /* list-style: none; */
     gap: 60px;
     /* text-decoration:none; */
-    margin-right: 3rem;
+    margin: 0 3rem;
+
 }
 
 
 
 .menu li,a{
     display: flex;
-    align-items: ;
     text-align: center;
     text-decoration: none;
     color: white;
@@ -61,7 +61,8 @@ header section{
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-
+    align-content: center;
+    align-items: center;
 }
 
 header form{
@@ -76,6 +77,14 @@ header form{
     transition: .6s all;
 
 }
+header form:hover , header form ul li a{
+    width: 110%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .6s all;
+}
 header form button{
     display: grid;
     place-items: center;
@@ -87,14 +96,6 @@ header form input [type="text"]:placeholder-shown{
 }
 /* tirar duvidas sobre esse bloco de codigo*/
 
-header form:hover{
-    width: 110%;
-    border-radius: 8px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    transition: .6s all;
-}
 
 .active{
     display: block;
@@ -145,7 +146,19 @@ header li a:hover{
     align-items: center;
     justify-content: center;
     transition: .6s all;
+    margin: 0  50px;
+}
 
+.carrinho:hover{
+    background-color: #06F1E3;
+    border-radius: 40px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .6s all;
+    margin: 0  50px;
 }
 
 .carrinho a img {
