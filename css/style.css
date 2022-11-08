@@ -69,6 +69,8 @@ header section{
     align-items: center;
 }
 
+
+
 header form{
     background-color: white;
     width: 50px;
@@ -78,7 +80,8 @@ header form{
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: .6s all;
+    transition-delay: 40s;
+    transition: 4s all;
 
 }
 header form:hover , header form ul li a{
@@ -139,6 +142,7 @@ header li a:hover{
     background-color: #F3E1E1;
     border-radius: 10px;
     padding: 10px;
+    text-decoration: underline ;
 }
 
 .carrinho{
@@ -191,6 +195,7 @@ header li a:hover{
     justify-content: center;
     color: #3D1C1C;
     font-weight: bolder;
+    transition: 1s all;
 }
 
 
@@ -204,6 +209,7 @@ header li a:hover{
     justify-content: center;
     color: #3D1C1C;
     font-weight: bolder;
+    transition: 1s all;
 }
 
 
@@ -291,8 +297,14 @@ main{
     border-radius: 1rem;
     background-color: #3d1c1c33;
     box-shadow: 2px 2px 7px 1px #cc655ec6;
+    transition: .6s all;
 }
 
+.maisOpcoes div:hover{
+    background-color: #4e2f2f15;
+    box-shadow: 2px 2px 7px 1px #cc655ec6;
+    transition: .6s all;
+}
 
 
 footer{
@@ -349,4 +361,7 @@ footer h2{
 
 footer ul{
     padding: 0;
+}
+footer p{
+    text-align: match-parent;
 }
