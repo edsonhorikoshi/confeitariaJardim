@@ -29,6 +29,7 @@ header{
     list-style: none;
     gap: 60px;
     text-decoration:none; 
+    margin-right: 10rem;
 }
 
 
@@ -167,4 +168,56 @@ header li a:hover{
     background-color: #06F1E3;
     color: white;
     transition: 0.6s all;
+}
+
+
+
+main section.carrossel {
+    background-color: #2B1010;
+    width: 800px;
+    align-items: center;
+    margin: 10px auto;
+
+}
+
+main{
+    width: 90%;
+    margin: 0   auto;
+}
+
+.maisOpcoes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 3rem auto;
+    font-weight: bolder;
+    width: 80%;
+}
+
+.maisOpcoes div a{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 300px;
+
+
+
+}
+
+.maisOpcoes div a img{
+    width: 100%;
+}
+.maisOpcoes div a p{
+    width: 100%;
+    text-align: justify;
+    color: #2B1010;
+    font-weight: 300;
+    padding: .5rem;
+}
+.maisOpcoes div{
+    margin: 1.2rem;
+    border-radius: 1rem;
+    background-color: #3d1c1c33;
+
 }
