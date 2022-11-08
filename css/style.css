@@ -7,33 +7,54 @@
 
 body{
     background: #F3E1E1;
+    max-width: 2800px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 header{
     display: flex;
+    flex-direction: row;
     width: 100%;
     background-color: #CC655E;
-    height: 100px;
+    /* height: 100px; */
     align-items: center;
-    justify-content: space-between;
     box-shadow: 2px 2px 7px 1px #cc655ec6;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    /* align-content: center; */
+}
+
+header section{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+    align-items: center;
 }
 
 .logo{
     padding-left: 50px;
 }
-
+.menu{
+    display: flex;
+    align-content: flex-start;
+}
 .menu ul{
     display: flex;
-    padding: 15px;
-    list-style: none;
+    /* align-items: flex-start; */
+    /* padding: 0 0px 0 50px; */
+    /* list-style: none; */
     gap: 60px;
-    text-decoration:none; 
-    margin-right: 10rem;
+    /* text-decoration:none; */
+    margin-right: 3rem;
 }
 
 
+
 .menu li,a{
+    display: flex;
+    align-items: ;
+    text-align: center;
     text-decoration: none;
     color: white;
     font-size: 16px;
@@ -62,15 +83,17 @@ header form button{
 
 header form input [type="text"]:placeholder-shown{
     display: none;
+    width: 110%;
 }
 /* tirar duvidas sobre esse bloco de codigo*/
 
 header form:hover{
-    width: 25%;
+    width: 110%;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: .6s all;
 }
 
 .active{
@@ -86,7 +109,7 @@ header form input[type="text"]{
     background: none;
     border:none;
     outline: none;
-    width: 100%;
+    width: 110%;
 }
 
 header form span{
@@ -140,6 +163,7 @@ header li a:hover{
     padding-right: 50px ;
 }
 
+
 .botaoEntrar{
     background-color: #F3E1E1;
     width: 110px;
@@ -151,6 +175,7 @@ header li a:hover{
     color: #3D1C1C;
     font-weight: bolder;
 }
+
 
 .botaoCadastrar{ 
     background-color: #F3E1E1;
@@ -164,12 +189,12 @@ header li a:hover{
     font-weight: bolder;
 }
 
+
 .botaoEntrar:hover, .botaoCadastrar:hover{
     background-color: #06F1E3;
     color: white;
     transition: 0.6s all;
 }
-
 
 
 main section.carrossel {
@@ -180,10 +205,12 @@ main section.carrossel {
     box-shadow: 2px 2px 7px 1px #cc655ec6;
 }
 
+
 main{
     width: 90%;
     margin: 0   auto;
 }
+
 
 .maisOpcoes{
     display: flex;
@@ -194,20 +221,20 @@ main{
     width: 80%;
 }
 
+
 .maisOpcoes div a{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     width: 300px;
-
-
-
 }
 
 .maisOpcoes div a img{
     width: 100%;
 }
+
+
 .maisOpcoes div a p{
     width: 100%;
     text-align: justify;
@@ -215,9 +242,67 @@ main{
     font-weight: 300;
     padding: .5rem;
 }
+
+
 .maisOpcoes div{
     margin: 1.2rem;
     border-radius: 1rem;
     background-color: #3d1c1c33;
     box-shadow: 2px 2px 7px 1px #cc655ec6;
+}
+
+
+
+footer{
+    background-color: #CC655E;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: stretch;
+    box-shadow: -2px -3px 7px 1px #cc655ec6;
+    justify-content: space-between;
+    padding: 0 368px;
+}
+
+footer div{
+    background-color: #F3E1E1;
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    margin: 10px 0;
+    text-justify: inherit;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px 1px #ac8481fd;
+    justify-content: flex-start;
+    align-content: flex-start;
+    
+}
+
+ul li{
+    list-style: none;
+    padding: .5rem 0;
+}
+
+footer a{
+    text-decoration: none;
+    color: #2B1010;
+    text-transform: none;
+    
+}
+
+footer div a:hover{
+    text-decoration: none;
+    color: #2B1010;
+    text-transform: none;
+    font-size: 1.05rem;
+    transition: .6s all;
+}
+
+footer h2{
+    text-align: center;
+}
+
+footer ul{
+    padding: 0;
 }
