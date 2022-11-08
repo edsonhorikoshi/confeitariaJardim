@@ -39,6 +39,12 @@ header section{
 .logo{
     padding-left: 50px;
 }
+
+
+.logo img{
+    width: 100px;
+}
+
 .menu{
     display: flex;
     align-content: flex-start;
@@ -221,10 +227,10 @@ header li a:hover{
 
 .carrossel {
     background-color: #2B1010;
-    width: 800px;
+    width: 90%;
     margin: 10px auto;
     box-shadow: 2px 2px 7px 1px #cc655ec6;
-    height: 400px;
+    height: 500px;
     box-sizing: border-box;
     border: 0;
     border-radius: 20px;
@@ -232,7 +238,7 @@ header li a:hover{
 
 
 .carousel-inner{
-    height: 400px;
+    height: 500px;
     background-position: center;
     border-radius: 20px;
 }
