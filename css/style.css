@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&family=Roboto&display=swap%27');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    background-color: #3D1C1C;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    padding-left: 100px;
+}
+
+.menu ul{
+    display: flex;
+    padding: 15px;
+    list-style: none;
+    gap: 60px;
+    text-decoration:none;
+    padding-left: 100px;
+    
+}
+
+
+.menu li,a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+
+header form{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .6s all;
+
+}
+header form button{
+    display: grid;
+    place-items: center;
+}
+
+header form input [type="text"]:placeholder-shown{
+    display: none;
+}
+/* tirar duvidas sobre esse bloco de codigo*/
+
+header form:hover{
+    width: 25%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.active{
+    display: block;
+}
+/* não entendi*/
+
+header form.active:hover input[type="text"]:placeholder-shown{
+    display: block;
+}
+
+header form input[type="text"]{
+    background: none;
+    border:none;
+    outline: none;
+    width: 100%;
+}
+
+header form span{
+    color: black;
+    cursor: pointer;
+    
+}
+header button {
+    background: none;
+    border: none;
+}
+
+header li a{
+    transition: .6s all; 
+}
+
+header li a:hover{
+    font-size: 25px;
+    transition: .6s all;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
