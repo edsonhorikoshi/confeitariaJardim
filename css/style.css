@@ -101,10 +101,31 @@ header li a{
 
 header li a:hover{
     font-size: 25px;
+    color: #3D1C1C;
+    font-weight: bolder;
     transition: .6s all;
-    background-color: black;
+    background-color: #F3E1E1;
     border-radius: 10px;
     padding: 10px;
+}
+
+.carrinho{
+    background-color: #F3E1E1;
+    border-radius: 40px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .6s all;
+
+}
+
+.carrinho a img {
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
