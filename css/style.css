@@ -177,7 +177,7 @@ main section.carrossel {
     width: 800px;
     align-items: center;
     margin: 10px auto;
-
+    box-shadow: 2px 2px 7px 1px #cc655ec6;
 }
 
 main{
@@ -219,5 +219,5 @@ main{
     margin: 1.2rem;
     border-radius: 1rem;
     background-color: #3d1c1c33;
-
+    box-shadow: 2px 2px 7px 1px #cc655ec6;
 }
