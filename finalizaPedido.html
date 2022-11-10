@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Finalizar Pagamento</title>
+</head>
+<body>
+    
+    <header class="headerFinalizarCompra">
+        
+        <div class="logo">
+            <img src="img/logo.png" alt="imagem-Logo">
+        </div>
+
+        <div class="usuario">
+
+            <img src="img/imagemUsuario.png" alt="imagenDoUsuario">
+            <p>Olá usuário</p>
+
+        </div>
+
+    </header>
+
+    <form>
+
+        <div>
+            <h1>Forma de pagamento</h1>
+        </div>
+
+        <hr>
+
+        <div>
+            <h3>Formas de pagamento no cartão</h3>
+            <img src="img/bandeiras-de-cartao.png" alt="bateiras-cartão">
+        </div>
+
+        <div class="botaoTipoCartao">
+            <div id="botaoCredito">
+                <p>Crédito</p>
+            </div>
+            <div id="botaoDebito">
+                <p>Débito</p>
+            </div>
+        </div>
+
+        <div class="alterarCartao">
+            <a href="#">Alterar informações do cartão</a>
+        </div>
+
+        <div class="formaPixBoleto">
+            <input type="radio" name="formaPixBoleto" id="#">
+            PIX
+            <img src="img/pix.png" alt="imagem-pix">
+        </div>
+
+        <div>
+            <input type="radio" name="formaPixBoleto" id="#">
+            Boleto
+            <img src="img/boleto.svg" alt="imagem-boleto">
+        </div>
+
+        <div class="dadosPedido">
+
+            <div>
+                <h1>Dados do pedido</h1>
+            </div>
+
+            <br>
+
+
+            <div class="endereco">
+                <h3>Enderço da entrega</h3>
+
+                <div>
+                    <label>Nome</label>
+                    <input type="text" placeholder="Nome completo...">
+                </div>  
+
+                <div>
+                    <label>Rua</label>
+                    <input type="text" placeholder="Nome da rus...">
+                </div>  
+
+                <div>
+                    <label>Número</label>
+                    <input type="number" placeholder="Numero onde reside...">
+                </div>  
+
+                <div>
+                    <label>Cidade</label>
+                    <input type="text" placeholder="Qual a cidade?...">
+                </div>  
+
+                <div>
+                    <label>Cep</label>
+                    <input type="number" placeholder="Digide o Cep...">
+                </div>  
+
+                <div>
+                    <label>Telefone</label>
+                    <input type="number" placeholder="Digite número...">
+                </div>  
+
+                <div>
+                    <input type="submit" id=""> 
+                </div>
+            </div>
+
+        </div>
+
+        <div class="caixaInfoPedido">
+
+            <div>
+                <h1>Entrega entimada: 20 out 2022 - 01 nov de 2022</h1>
+            </div>
+
+            <hr>
+
+            <div class="item">
+
+                <img src="img/naked-cake-site-650x650 1.jpg" alt="">
+                <p>Bolo de chocolate com cobertura de morango</p>
+                <p>R$ 120,00</p>
+    
+            </div>
+    
+            <div class="opcaoEntrega">
+                <h4>Opção entrega</h4>
+                <input type="radio" name="opcaoEntrega" id="">
+                Frete grátis - receba dia tal
+                <input type="radio" name="opcaoEntrega" id="">
+                R$ 12,00 - Entrega padrão
+            </div>      
+
+
+            <div>
+                <h1>Resumo do pedido</h1>
+            </div>
+
+            <br>
+    
+            <div>
+                <p>Itens: R$ 120,00</p>
+                <p>Frete e maniseio: R$ 12,00</p>
+
+                <br>
+
+                <h2>Total do pedido: R$ 132,00</h2>
+            </div>
+
+        </div>
+
+
+        <div class="botaoConfirmar">
+            <h3>Confirmar pedido</h3>
+        </div>
+
+
+
+    </form>
+
+    <footer></footer>
+
+
+</body>
+</html>

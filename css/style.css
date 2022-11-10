@@ -137,7 +137,7 @@ header li a:hover{
     align-items: center;
     justify-content: center;
     gap: 18px;
-    padding-right: 50px ;
+    padding-right: 50pxc ;
 }
 
 .botaoEntrar{
@@ -221,3 +221,46 @@ main{
     background-color: #3d1c1c33;
     box-shadow: 2px 2px 7px 1px #cc655ec6;
 }
+
+/* Página de finalização de compra*/
+
+.headerFinalizarCompra{
+    display: flex;
+    width: 100%;
+    background-color: #CC655E;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 2px 7px 1px #cc655ec6;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bolder;
+    color: #2B1010;
+    padding-right: 50px;
+    
+}
+
+
+#LogoFinalizar{
+    padding-right: 50px;
+}
+
+
+.usuario{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+    background-color: #F3E1E1;
+    height: 60px;
+    width: 200px;
+    border-radius: 4px;
+
+
+}
+
+.usuario img{
+    width: 45px;
+    border-radius: 45px;
+    margin-left: 10%;
+}
+
