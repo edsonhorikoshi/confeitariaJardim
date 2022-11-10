@@ -7,6 +7,7 @@
 
 body{
     background: #F3E1E1;
+    font-family: 'Roboto', sans-serif;
 }
 
 header{
@@ -37,8 +38,6 @@ header{
     text-decoration: none;
     color: white;
     font-size: 16px;
-    font-family: 'Noto Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
 
 }
@@ -264,3 +263,16 @@ main{
     margin-left: 10%;
 }
 
+form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 50px;
+    width: 50%;
+}
+
+
+
+.imgCartao img{
+    width: 400px;
+}
