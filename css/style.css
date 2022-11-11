@@ -333,7 +333,7 @@ form{
 
 .formaboleto{
     padding-top: 60px;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
 
     display: flex;
     align-items: center;
@@ -352,15 +352,20 @@ form{
 
 .endereco{
 
-    background-color: #F3E1E1;
+    background-color: white;
+    width: 100%;
+    height: 750px;
+    max-height: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
 
-    
     gap: 15px;
+    padding: 15px;
     padding-top: 50px;
     padding-bottom: 30px;
+    border-radius: 4px;
+
 }
 
 .endereco input{
@@ -368,6 +373,15 @@ form{
     height: 40px;
     font-size: 18px;
     padding-left: 15px;
+}
+
+.enderecoTitulo{
+    display: flex;
+    justify-content: center;
+    
+    padding-bottom: 15px;
+
+
 }
 
 #confirmaEndereco{
@@ -384,4 +398,23 @@ form{
 
     margin: auto;
     
+}
+
+.caixaInfoPedido{
+    background-color: white;
+    width: 100%;
+    height: 450px;
+    margin-top: 30px;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+.caixaInfoPedido h1{
+    color: orangered;
+    font-size: 25px;
+}
+
+.caixaInfoPedido img {
+    width: 100px;
+    border-radius: 50%;
 }
