@@ -356,6 +356,7 @@ form{
     display: flex;
     justify-content: center;
     flex-direction: column;
+
     
     gap: 15px;
     padding-top: 50px;
@@ -367,6 +368,20 @@ form{
     height: 40px;
     font-size: 18px;
     padding-left: 15px;
-    
 }
 
+#confirmaEndereco{
+    background-color: #CC655E;
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    font-weight: bolder;
+    color: #F3E1E1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+    
+}
