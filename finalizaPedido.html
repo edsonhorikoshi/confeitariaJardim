@@ -26,7 +26,7 @@
 
     <form>
 
-        <div>
+        <div  class="formaDePagamento">
             <h1>Forma de pagamento</h1>
         </div>
 
@@ -38,25 +38,27 @@
         </div>
 
         <div class="botaoTipoCartao">
+
             <div id="botaoCredito">
-                <p>Crédito</p>
+                <a href="#"><p>Crédito</p></a>
             </div>
             <div id="botaoDebito">
-                <p>Débito</p>
+                <a href="#"><p>Débito</p></a>
             </div>
+            
         </div>
 
         <div class="alterarCartao">
             <a href="#">Alterar informações do cartão</a>
         </div>
 
-        <div class="formaPixBoleto">
+        <div class="formaPix">
             <input type="radio" name="formaPixBoleto" id="#">
             PIX
             <img src="img/pix.png" alt="imagem-pix">
         </div>
 
-        <div>
+        <div class="formaboleto">
             <input type="radio" name="formaPixBoleto" id="#">
             Boleto
             <img src="img/boleto.svg" alt="imagem-boleto">
@@ -64,14 +66,17 @@
 
         <div class="dadosPedido">
 
-            <div>
-                <h1>Dados do pedido</h1>
-            </div>
-
-            <br>
-
+            
 
             <div class="endereco">
+
+
+                <div>
+                    <h1>Dados do pedido</h1>
+                </div>
+    
+                <br>
+    
                 <h3>Enderço da entrega</h3>
 
                 <div>
