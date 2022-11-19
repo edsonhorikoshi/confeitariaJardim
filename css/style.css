@@ -16,6 +16,7 @@ header{
     display: flex;
     max-width: 2800px;
     flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
     background-color: #CC655E;
     /* height: 100px; */
@@ -27,7 +28,13 @@ header{
     position: fixed;
     top: 0;
     z-index: 10;
+
 }
+
+span.subMenu{
+    display: none;
+}
+
 
 header section{
     display: flex;
@@ -243,7 +250,11 @@ header li a:hover{
     border-radius: 20px;
 }
 
-.carrossel 
+
+.carousel-inner img{
+    width: 25px;
+    height: 25px;
+}
 
 
 main{
@@ -370,4 +381,17 @@ footer ul{
 }
 footer p{
     text-align: match-parent;
+}
+
+@media only screen and (max-width: 1180px) {
+    
+    header section:first-child{
+        display: none;
+    }
+    .botoes{
+        display: none;
+    }
+    span.subMenu{
+        display: block;
+    }
 }
